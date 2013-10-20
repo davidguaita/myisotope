@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Simple Canvas Game</title>
+		<script>
+    context.beginPath();
+    context.rect(10,10,100,100);
+    context.fill();
+    context.addHitRegion({ id: 'The First Button' });
+
+    context.beginPath();
+    context.rect(120,10,100,100);
+    context.fill();
+    context.addHitRegion({ id: 'The Second Button' });
+
+    canvas.onclick = function (event)
+    {
+        if (event.region) {
+            alert('You clicked ' + event.region);
+        }
+    }
+<script>		
+	</head>
+	<body>
+
+	</body>
+</html>

@@ -1,6 +1,6 @@
 /* Start: Recommended Isotope styles */
 
-/**** Isotope Filtering ****/
+/**** Isopadtitulosn`tope Filtering ****/
 
 .isotope-item {
  /* z-index: 2; */
@@ -85,7 +85,7 @@ time, mark, audio, video {
 	margin-top: 0px;
 	padding-bottom: 0;
 	padding-left: 0;
-	padding-right: 0px;
+	padding-right: 0%;
 	padding-top: 0px;
 }
 
@@ -95,7 +95,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	padding: 20px;
+	padding: 0px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
 	font-size: 13px;
 	line-height: 1.7em;
@@ -177,7 +177,7 @@ body {
 	/* [disabled]border: 1px solid #666; */
 	padding: 5px;
 	margin-bottom: 20px;
-	padding-top: 200px;
+	padding-top: 100px;
 /*	z-index: 1;  */
 }
 
@@ -203,6 +203,62 @@ body {
 	padding-bottom: 10px;
 	/*z-index: 5;*/
 }
+.fotogramas {
+	/* [disabled]width: 232px; */
+	/* [disabled]height: 90px; */
+	line-height: 0px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	background: #D44;
+	color: #222;
+	/*border-radius: 1.2em;*/
+	/* [disabled]vertical-align: bottom; */
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding: 10px;/*z-index: 5;*/
+}
+
+.video {
+	/* [disabled]width: 232px; */
+	/* [disabled]height: 90px; */
+	line-height: 0px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	background: #446;
+	color: #222;
+	/*border-radius: 1.2em;*/
+	/* [disabled]vertical-align: bottom; */
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding: 10px; 
+	border-top-right-radius: 2em;
+/*z-index: 5;*/
+}
+.logos {
+	/* [disabled]width: 232px; */
+	/* [disabled]height: 90px; */
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	/*border-radius: 1.2em;*/
+	/* [disabled]vertical-align: bottom; */
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding: 10px; 
+	
+}
+
 .element {
   width: 150px;
   height: 110px;
@@ -307,9 +363,10 @@ body {
 
 #options {
 	position: fixed;
-	padding-bottom: 1em;
 	z-index: 5;
 	background: black;
+	padding: 20px;
+	width: 100%;
 }
 
 #options h3 {
@@ -354,11 +411,11 @@ body {
 }
 
 #options li a:active {
-  background-color: #39D;
-  -webkit-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
-     -moz-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
-       -o-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
-          box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
+	background-color: #39D;
+	-webkit-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
+	-moz-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
+	-o-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
+	box-shadow: 0px 2px 8px hsla( 0, 0%, 0%, 0.6 );
 }
 
 #options li a {

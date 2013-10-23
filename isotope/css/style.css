@@ -3,7 +3,7 @@
 /**** Isopadtitulosn`tope Filtering ****/
 
 .isotope-item {
- /* z-index: 2; */
+ /* z-icontainendex: 2; */
 }
 
 .isotope-hidtiden.isotope-item {
@@ -75,7 +75,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-	border: 0;
+	border: 4;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -126,8 +126,20 @@ h2 {
 h4 {
 	/*font-family: 'Share Tech', sans-serif;
     font-family: 'Signika', sans-serif; */
-	font-family: 'Rosario', sans-serif;
+	/*font-family: 'Rosario', sans-serif;*/
+	font-family: 'Signika', sans-serif;
 	font-size: 40px;
+	line-height: 1.1em;
+	color: #999999;
+	/*z-index: -2; */
+}
+h5 {
+	/*font-family: 'Share Tech', sans-serif;
+    font-family: 'Signika', sans-serif; */
+	/*font-family: 'Rosario', sans-serif;*/
+	font-family: 'Signika', sans-serif;
+	font-size: 50px;
+	padding-left: 30px;
 	line-height: 1.1em;
 	color: #999999;
 	/*z-index: -2; */
@@ -175,12 +187,18 @@ body {
 
 #container {
 	/* [disabled]border: 1px solid #666; */
-	padding: 5px;
+	padding: 40px;
 	margin-bottom: 20px;
-	padding-top: 100px;
+
 /*	z-index: 1;  */
 }
 
+#iconright {
+	/* [disabled]border: 1px solid #666; */
+	float: right ;
+
+/*	z-index: 1;  */
+}
 .titulos {
 	/* [disabled]width: 232px; */
 	/* [disabled]height: 90px; */
@@ -364,9 +382,12 @@ body {
 #options {
 	position: fixed;
 	z-index: 5;
-	background: black;
+	background: white;
 	padding: 20px;
 	width: 100%;
+	border-bottom: 4;
+	border-bottom-color: #999;
+	border-style: solid;
 }
 
 #options h3 {

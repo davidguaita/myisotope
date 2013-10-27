@@ -88,7 +88,17 @@ time, mark, audio, video {
 	padding-right: 0%;
 	padding-top: 0px;
 }
+video {
+            max-width: 100%;
+            height: auto;
+          }
 
+iframe,
+embed,
+object {
+            max-width: 100%;
+          }
+		  
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -184,10 +194,13 @@ html,
 body {
   height: 100%;
 }
+banda {
+	margin-right: 200px;
+}
 
 #container {
 	/* [disabled]border: 1px solid #666; */
-	padding: 40px;
+	padding: 100px;
 	margin-bottom: 20px;
 
 /*	z-index: 1;  */
@@ -195,8 +208,10 @@ body {
 
 #iconright {
 	/* [disabled]border: 1px solid #666; */
-	float: right ;
-
+	
+	padding-right: 200px;
+	margin-right: 200px; 
+ float: right ;
 /*	z-index: 1;  */
 }
 .titulos {

@@ -3,7 +3,7 @@
     <head>
     <link href='http://fonts.googleapis.com/css?family=Share+Tech|Signika|Rosario' rel='stylesheet' type='text/css'>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Fluid Width Videos with Fitvids.js</title>
+        <title>KDDI</title>
           <link rel="stylesheet" href="css/style.css" />
 
         <style>
@@ -11,17 +11,8 @@
             background: #ddd;
         	}
 
-          video {
-            max-width: 100%;
-            height: auto;
-          }
-
-          iframe,
-          embed,
-          object {
-            max-width: 100%;
-          }
-
+ 
+ 
           .container {
 	width: 90%;
 	padding: 5%;
@@ -40,33 +31,62 @@
           .unsupported {
             background: #fddfde;
           }
+		  
+		  .banda {
+			  padding-right: 80px;
+		  }
+		  
         </style>
+
+ 
     </head>
     <body>
+    
+
+
      <section id="options" class="clearfix">
-    <h5> Torrente 4</h5>
-    <img class="iconright" src="images/flechaatras.png" style="float:right" width="48" height="48">
+     <div class= "banda" >
+     <a href="Works.htm"> 
+    <img class="iconright" src="images/flechaatras.png" style="float:right" width="48" height="48" >
+    </a>
+    </div>
+   
+    
+    <h5> News Zero X Vancouver</h5>
     </section>
     
     <div class="container">
-      <div class="vendor">
-    <img src="images/torrentee.jpg" width=100% />
+      <div class="div1">
+      
+    <img src="images/vancouver1_001.jpg" width=960 />
      </div>
-     
- <div class="vendor">
-        <iframe src="http://player.vimeo.com/video/37368349?title=0&amp;byline=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
-       
+      <div class="div2">
+      
+    <img src="images/vancouver2_001.jpg" width=960 />
+     </div> 
+      <div class="div3">
+      
+    <img src="images/vancouver4_001.jpg" width=960 />
+     </div>
+ <
 
-      </div>
+    </div>
 
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+   
+    
+      </body>
+      
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
       <script src="js/jquery.fitvids.js"></script>
-      <script>
+   
+     <script>
         // Basic FitVids Test
         $(".container").fitVids();
         // Custom selector and No-Double-Wrapping Prevention Test
         $(".container").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
       </script>
-      </body>
+
   </html>
+  
+  

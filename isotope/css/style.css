@@ -11,6 +11,7 @@
  /* z-index: 1; */
 }
 
+
 /**** Isotope CSS3 transitions ****/
 
 .isotope,
@@ -66,13 +67,13 @@
 
 /**** Base styles ****/
 
-html, body, div, span, object, iframe,
+body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
+article, aside,  details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
 	border: 4;
@@ -88,11 +89,61 @@ time, mark, audio, video {
 	padding-right: 0%;
 	padding-top: 0px;
 }
+
+		html { 
+			background: url(../images/background.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+
+		
 video {
             max-width: 100%;
             height: auto;
           }
+		  
+canvas {
+	margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+ 
+  
 
+	
+}
+	  
+.canvasesdiv
+ {
+	margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+ 
+  
+
+	
+}
+.layer1
+{
+	opacity: 0.5;
+}
+
+.layer2
+{
+	opacity: 0.5;
+}
+.layer3
+{
+	opacity: 0.5;
+}
 iframe,
 embed,
 object {
@@ -106,11 +157,13 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	padding: 0px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+		font-family: 'Source Sans Pro',  sans-serif;
+		font-weight: 300;
 	font-size: 13px;
 	line-height: 1.7em;
-	background: #F0F0F0;
-	color: #FFF;
+	/*background: #F0F0F0;*/
+	
+	
 }
 
 h1, h2, h3, p, ul, ol, pre, dl {
@@ -119,7 +172,8 @@ h1, h2, h3, p, ul, ol, pre, dl {
 
 h1, h2, #super-list, .element, .tagline, #index-list, 
 .super-list .link {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+ 	font-family: 'Source Sans Pro',  sans-serif;
+		font-weight: 300;
 }
 
 h1, h2, h3 { font-weight: bold; }
@@ -133,21 +187,50 @@ h2 {
 	font-size: 24px;
 	line-height: 1.1em;
 }
+
+.titulos {
+	/* [disabled]width: 232px; */
+	/* [disabled]height: 90px; */
+	
+	line-height: 90px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	/*background: #DDD;*/
+	background-color:rgba(255,255,255,0.2);
+	color: #FFF;
+	opacity: 1;
+	border-radius: 1.2em;
+	/* [disabled]vertical-align: bottom; */
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-left: 21px;
+	padding-right: 17px;
+	padding-bottom: 10px;
+	/*z-index: 5;*/
+}
+
 h4 {
 	/*font-family: 'Share Tech', sans-serif;
     font-family: 'Signika', sans-serif; */
-	/*font-family: 'Rosario', sans-serif;*/
-	font-family: 'Signika', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 300; 
+	opacity: 1;
 	font-size: 40px;
 	line-height: 1.1em;
-	color: #999999;
+	color: #FFF;
 	/*z-index: -2; */
 }
 h5 {
 	/*font-family: 'Share Tech', sans-serif;
     font-family: 'Signika', sans-serif; */
 	/*font-family: 'Rosario', sans-serif;*/
-	font-family: 'Signika', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600; 
 	font-size: 50px;
 	padding-left: 30px;
 	line-height: 1.1em;
@@ -194,9 +277,7 @@ html,
 body {
   height: 100%;
 }
-banda {
-	margin-right: 200px;
-}
+
 
 #container {
 	/* [disabled]border: 1px solid #666; */
@@ -214,28 +295,7 @@ banda {
  float: right ;
 /*	z-index: 1;  */
 }
-.titulos {
-	/* [disabled]width: 232px; */
-	/* [disabled]height: 90px; */
-	line-height: 90px;
-	float: left;
-	text-align: center;
-	overflow: hidden;
-	position: relative;
-	background: #DDD;
-	color: #222;
-	border-radius: 1.2em;
-	/* [disabled]vertical-align: bottom; */
-	margin-bottom: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-top: 5px;
-	padding-top: 10px;
-	padding-left: 21px;
-	padding-right: 17px;
-	padding-bottom: 10px;
-	/*z-index: 5;*/
-}
+
 .fotogramas {
 	/* [disabled]width: 232px; */
 	/* [disabled]height: 90px; */
@@ -244,7 +304,8 @@ banda {
 	text-align: center;
 	overflow: hidden;
 	position: relative;
-	background: #D44;
+
+	background-color:rgba(255,255,255,0.5);
 	color: #222;
 	/*border-radius: 1.2em;*/
 	/* [disabled]vertical-align: bottom; */
@@ -263,16 +324,18 @@ banda {
 	text-align: center;
 	overflow: hidden;
 	position: relative;
-	background: #446;
-	color: #222;
+	background-color:rgba(0,0,0,0.5);
+
+	
 	/*border-radius: 1.2em;*/
 	/* [disabled]vertical-align: bottom; */
 	margin-bottom: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: 5px;
-	padding: 10px; 
+	padding: 10px;
 	border-top-right-radius: 2em;
+	background-image: url(images/Cibeles%2003.jpg);
 /*z-index: 5;*/
 }
 .logos {
@@ -306,103 +369,22 @@ banda {
           border-top-right-radius: 1.2em;
 }
 
-.element.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
-.element.alkaline-earth  {height: 80px; background: #F80; background: hsl(  36, 100%, 50%); }
-.element.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
-.element.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
-.element.transition      { width: 105px; background: #0F8; background: hsl( 144, 100%, 50%); }
-.element.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
-.element.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
-.element.other.nonmetal  { height: 80px;background: #00F; background: hsl( 252, 100%, 50%); }
-.element.halogen         { width: 105px; background: #F0F; background: hsl( 288, 100%, 50%); }
-.element.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
 
-
-.element * {
-  position: absolute;
-  margin: 0;
-}
-
-.element .symbol {
-	left: 0.2em;
-	top: 0.4em;
-	font-size: 3.8em;
-	line-height: 1em;
-	color: #FFF;
-	
-}
-.element.large .symbol {
-  font-size: 4.5em;
-}
-
-.element.fake .symbol {
-  color: #000;
-}
-
-.element .name {
-	left: 0em;
-	bottom: 1.6em;
-	font-size: 1.05em;
-}
-
-.element .weight {
-	font-size: 0.9em;
-	left: 0.5em;
-	bottom: 0.5em;
-	
-}
-
-.element .number {
-	font-size: 1.25em;
-	font-weight: bold;
-	color: hsla(0,0%,0%,.5);
-	right: 0.5em;
-	top: 0.5em;
-}
-
-.variable-sizes .element.width2 { width: 230px; }
-
-.variable-sizes .element.height2 { height: 230px; }
-
-.variable-sizes .element.width2.height2 {
-  font-size: 2.0em;
-}
-
-.element.large,
-.variable-sizes .element.large,
-.variable-sizes .element.large.width2.height2 {
-  font-size: 3.0em;
-  width: 350px;
-  height: 350px;
- /* z-index: 100; */
-}
-
-.clickable .element:hover {
-  cursor: pointer;
-}
-
-.clickable .element:hover h3 {
-  text-shadow:
-    0 0 10px white,
-    0 0 10px white
-  ;
-}
-
-.clickable .element:hover h2 {
-  color: white;
-}
 
 /**** Example Options ****/
 
 #options {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
 	position: fixed;
 	z-index: 5;
-	background: white;
+	font-size: 1.4em;
+	background-color: rgba(255,255,255,0.8);
 	padding: 20px;
+	padding-left: 100px;
+	alignment-adjust: central;
 	width: 100%;
-	border-bottom: 4;
-	border-bottom-color: #999;
-	border-style: solid;
+	
 }
 
 #options h3 {
@@ -411,7 +393,7 @@ banda {
 }
 
 #options h4 { 
-  font-weight: bold;
+
 }
 
 #options ul {
@@ -424,6 +406,7 @@ banda {
 }
 
 #options li {
+
   float: left;
   margin-bottom: 0.2em;
 }
@@ -433,7 +416,7 @@ banda {
   padding: 0.4em 0.5em;
   background-color: #DDD;
   color: #222;
-  font-weight: bold;
+ /* font-weight: bold; */
   text-shadow: 0 1px hsla( 0, 0%, 100%, 0.5 );
   background-image: -webkit-linear-gradient( top, hsla( 0, 0%, 100%, 0.5 ), hsla( 0, 0%, 100%, 0.0 ) );
   background-image:    -moz-linear-gradient( top, hsla( 0, 0%, 100%, 0.5 ), hsla( 0, 0%, 100%, 0.0 ) );
@@ -498,6 +481,12 @@ banda {
   vertical-align: top;
 }
 
+.banda {
+	margin-right: 100px;
+	padding-right: 80px;
+}
+
+
 /* Color shapes */
 
 .color-shape {
@@ -560,6 +549,7 @@ banda {
 }
 
 #content {
+	
 }
 
 .demos #content {
